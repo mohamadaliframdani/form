@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/form-style.css"/>
+	<title>Registration Form</title>
+</head>
+<body background="img/Starlid-illustration.svg">
+	<div class="nav">
+        <img src="img/nw-horizontal.png">
+	</div>
+	<form class="boxform">
+        <img src="img/logomark-sign.png">
+
+		<h4>Form Rekrutasi</h4>
+        <p>Isi data di bawah sesuai dengan identitas diri anda dan lowongan yang akan anda pilih</p>
+		
+		<label for="fullname">Fullname: <span style="color:red">*</span></label>
+		<input type="text" id="fullname" name="fullname" placeholder="Masukkan Nama" required>
+
+		<label for="email">Email: <span style="color:red">*</span></label>
+		<input type="email" id="email" name="email" placeholder="Masukkan Email" required>
+
+		<label for="password">Phone Number: <span style="color:red">*</span></label>
+		<input type="number" id="phone" name="phone" placeholder="Masukkan Number" required>
+
+        <label for="password">Vacancy: <span style="color:red">*</span></label>
+		<select  id="vacancy" name="vacancy" required>
+            <option disables selected value>
+                - Pilih Lowongan -
+            </option>   
+            <option>
+                Database Developer
+            </option>
+        </select>    
+		<label for="position">Position <span style="color:red">*</span></label>
+		<select class="form-control" required="" name="posisi" id="posisi">
+					<option value="" disabled="" selected="">- Pilih Posisi -</option>
+					<option value="#example1">Contoh Posisi #1</option>
+					<option value="#example2">Contoh Posisi #2</option>
+					<option value="#example3">Contoh Posisi #3</option>
+		 </select>           		
+		<input type="submit" value="Kirim">
+			<ul class="sosmed">
+					<a href="https://instagram.com/neuronworks">
+						<img src="img/instagram.svg">
+					</a>                        
+
+					<a href="https://www.youtube.com/@NeuronworksIndonesia">
+						<img src="img/youtube.svg">
+					</a>
+
+					<a href="https://twitter.com/neuronworks">
+						<img src="img/twitter.svg">
+					</a>
+
+					<a href="https://www.facebook.com/neuronworks/">
+						<img src="img/square-facebook.svg">
+					</a>
+			</ul>
+			<a class="web" href="https://www.neuronworks.co.id">
+				www.neuronworks.co.id
+			</a>
+	</form>
+</body>
+</html>
